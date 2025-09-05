@@ -3,7 +3,7 @@ name: Deploy Log Processing UI
 on:
   push:
     branches:
-      - dev
+      - main
 env:
   DOCKER_IMAGE: log-processing-ui
   DOCKER_TAG: latest
